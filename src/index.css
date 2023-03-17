@@ -13,3 +13,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  padding-bottom: 24px;
+}
+
+:global(.Close-box) {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+:global(.Modal-image) {
+  width: auto;
+  height: auto;
+  max-height: 100vh;
+}
